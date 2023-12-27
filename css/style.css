@@ -1,0 +1,134 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://fonoteka.top/uploads/posts/2021-04/1619154189_52-phonoteka_org-p-rik-i-morti-fon-63.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.backImg {
+  margin-top: 150px;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 80%;
+  /* background: url("https://images.vertigo.com.ua/2019/12/giphy-1.gif") no-repeat
+      center top / cover; */
+}
+.block-1 {
+  margin-top: 20px;
+  width: 580px;
+  height: 250px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+  font-size: 26px;
+  border-radius: 25px;
+}
+
+.block-2 {
+  margin-top: 20px;
+  width: 560px;
+  height: 250px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+  font-size: 26px;
+  border-radius: 25px;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  padding: 0.6rem 1.3rem;
+  background-image: url(https://cdn.shazoo.ru/c576x256/645042_X8EyWeU_rick.jpg);
+  border: 3px solid #fafafa;
+  font-size: 1.5rem;
+  color: #ffffff;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.btn:hover {
+  font-size: 0rem;
+  background-color: transparent;
+  border: 3px solid;
+  transition: 0.5s;
+  background: url("https://www.soyuz.ru/public/uploads/files/3/7615127/20221213194907084727eae9.jpg")
+    no-repeat center top / cover;
+}
+.btn2 {
+  width: 100%;
+  height: 100%;
+  padding: 0.6rem 1.3rem;
+  background-image: url(https://cdn.shazoo.ru/c576x256/645042_X8EyWeU_rick.jpg);
+  border: 3px solid #fafafa;
+  font-size: 1.5rem;
+  color: #ffffff;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5 s;
+  margin: 0;
+}
+.btn2:hover {
+  font-size: 0rem;
+  background-color: transparent;
+  border: 3px solid;
+  transition: 0.5s;
+  background: url("https://www.soyuz.ru/public/uploads/files/3/7615127/20221213194907084727eae9.jpg")
+    no-repeat center top / cover;
+}
+.divS1 {
+  display: flex;
+  width: 560px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cdn.shazoo.ru/c576x256/645042_X8EyWeU_rick.jpg);
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 3px solid white;
+}
+
+.block-11 :hover {
+  background-image: url(https://www.soyuz.ru/public/uploads/files/3/7615127/20221213194907084727eae9.jpg);
+  /* text-transform: uppercase; */
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all 0.3s ease;
+}
+.block-22 :hover {
+  background-image: url(https://www.soyuz.ru/public/uploads/files/3/7615127/20221213194907084727eae9.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.divContent {
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.divS11 {
+  width: 540px;
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.spans {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fafafa;
+}
+.divS1 img {
+  border-radius: 30px;
+  padding-left: 10px;
+}
